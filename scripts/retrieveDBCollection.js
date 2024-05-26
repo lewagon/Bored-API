@@ -1,6 +1,6 @@
 /*
  * retrieveDBCollection.js
- * Retrieves a collection from your mLab instance specified by the MONGODB_URI in the .env
+ * Retrieves a collection from your mLab instance specified by the MONGO_URL in the .env
  *
  * node retrieveDBCollection.js <collection> <output>
  *

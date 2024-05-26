@@ -52,7 +52,7 @@ app.listen(PORT);
 console.log(chalk.green('Started on port ' + PORT));
 
 //  Connect to MongoDB
-const DATABASE = process.env.NODE_ENV === 'production' ? process.env.MONGODB_URI : config.database;
+const DATABASE = process.env.NODE_ENV === 'production' ? process.env.MONGO_URL : config.database;
 
 mongoose.Promise = global.Promise;
 mongoose.connect(DATABASE, { useNewUrlParser: true, useUnifiedTopology: true })

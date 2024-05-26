@@ -15,7 +15,7 @@
 		<div class="content">
 			<h1>Try it out</h1>
 			<div class="search">
-				<span>https://www.boredapi.com/api/</span>
+				<span>https://bored.api.lewagon.com/api/</span>
 				<input type="text" v-model="endpoint" ></input>
 				<button @click="query(endpoint)">Submit</button>
 			</div>
